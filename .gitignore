@@ -1,0 +1,13 @@
+# Ambiente Virtual
+.venv
+
+# Arquivo Pessoal
+notas.txt
+
+# Python
+__pycache__/
+*.pyc
+
+# Editores
+.vscode/
+.idea/
