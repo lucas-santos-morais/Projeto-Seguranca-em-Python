@@ -1,9 +1,7 @@
 '''
-
 Programa: Gerador de Senhas
 Autor: Lucas Santos Morais
 Data: 05/09/2026
-
 '''
 
 import secrets
@@ -83,4 +81,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
