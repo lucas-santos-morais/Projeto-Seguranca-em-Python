@@ -1,4 +1,4 @@
-<h1 align="center"> 🖥️ Projeto de Gerador de senhas 🐍  </h1>
+<h1 align="center"> 🖥️ Projeto de Gerador de Senhas 🐍  </h1>
 
 <br>Projeto focado no gerenciador de senhas em Python.
 
@@ -12,7 +12,7 @@ Este projeto é focado em praticar meus conhecimentos na linguagem Python, com f
 
 ### 🎯 VERSÕES
 
-V1° - Montar um gerador de senhas
+### V1° - Montar um gerador de senhas
 
 * Montar as funções de cada parte do código
 * Tratar erros possíveis de entrada
@@ -26,6 +26,6 @@ Desenvolvimento...
 
 Desenvolvimento...
 
-## LICENÇA
+### LICENÇA
 
 Este projeto está licenciado sob a Licença MIT — veja o arquivo [LICENSE](LICENSE) para detalhes.
