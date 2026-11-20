@@ -2,6 +2,7 @@
 Programa: Gerador de Senhas
 Autor: Lucas Santos Morais
 Data: 05/09/2026
+
 '''
 
 import secrets
