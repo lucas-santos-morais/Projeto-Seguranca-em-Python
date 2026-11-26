@@ -12,17 +12,26 @@ Este projeto é focado em praticar meus conhecimentos na linguagem Python, com f
 
 ### 🎯 VERSÕES
 
-### V1° - Montar um gerador de senhas
+### V1° - Gerador de Senhas
 
 * Montar as funções de cada parte do código
 * Tratar erros possíveis de entrada
 * Utilizar biblioteca (OS, Time, string e secrets)
+
+### V2° - Validador de Senhas
+
+* Receber a senha do usuário 
+* Verificar a senha com base nas normas de segurança
+* Voltar a senha com os apontamentos necessários
+* Tratar erros
 
 ### 🛠️ INSTRUÇÕES DE EXECUÇÃO
 
 Desenvolvimento...
 
 ### 📌 TECNOLOGIAS UTILIZADAS:
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 
 Desenvolvimento...
 
