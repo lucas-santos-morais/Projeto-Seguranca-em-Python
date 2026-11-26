@@ -4,6 +4,9 @@
 # Arquivo Pessoal
 notas.txt
 
+# Arquivo de correção
+correcao_de_codigo.py
+
 # Python
 __pycache__/
 *.pyc

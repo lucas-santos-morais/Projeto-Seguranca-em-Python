@@ -7,6 +7,7 @@ Data: 19/11/2026
 
 import string
 import os
+import time
 
 """Váriavel que define o tamanho mínimo da senha."""
 TAMANHO_MINIMO = 8
@@ -41,6 +42,7 @@ def main():
             
         if senha.strip() == '':
             print("Erro: a senha não pode ser vazia.")
+            time.sleep(2)
             os.system('cls')
             continue
 

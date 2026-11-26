@@ -32,19 +32,19 @@ def ler_entrada():
 
     while True:
         try:
-            tamanho = int(input('Digite o tamanho da senha: '))
+            tamanho = int(input("Digite o tamanho da senha: "))
+
+            if tamanho <= 0:
+                print("Erro: o tamanho da senha deve ser um número inteiro positivo.")
+                time.sleep(2)
+                os.system('cls')
+            else:
+                return tamanho 
 
         except ValueError:
-            print('Erro: digite apenas números inteiros.')
+            print("Erro: Digite apenas números inteiros.")
+            time.sleep(2)
             os.system('cls')
-            continue
-
-        if tamanho <= 0:
-            print('Erro: o tamanho da senha deve ser um número inteiro positivo.')
-            os.system('cls')
-            continue
-
-        return tamanho
 
 def validar_resposta(pergunta):
     
@@ -59,6 +59,7 @@ def validar_resposta(pergunta):
     
         except ValueError as erro:
             print(f'Erro: {erro}')
+            time.sleep(2)
             os.system('cls')
 
 def main():
@@ -78,7 +79,7 @@ def main():
 
     time.sleep(2)
 
-    print(f'Senha gerada: {senha}')
+    print(f'Senha gerada:{senha}')
 
 if __name__ == '__main__':
     main()
